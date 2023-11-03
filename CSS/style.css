@@ -16,7 +16,7 @@ body{
   font-size: 1.2rem;
 }
 
-#main-header{
+#banner{
     background-image: url("../Media/BackGroundPizza.jpg");
     background-size: cover;
     height: 500px;
