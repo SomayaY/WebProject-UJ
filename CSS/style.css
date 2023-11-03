@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/css?family=Acme);
+
+* {
+    font-family: "Acme";
+}
+body{
+    background-color: #f7fafe !important;
+}
+.Pizza{
+    font-size: 1.6rem;
+    /* vertical-align: middle; */
+}
+.nav-item{
+  text-decoration: none;
+  color: black; 
+  font-size: 1.2rem;
+}
+
+#main-header{
+    background-image: url("../Media/BackGroundPizza.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: 50% 50%;
+}
+
+.sec-heder{
+    padding-top: 130px;
+}
+
+.menuBtn{
+    background-color: rgb(122, 20, 20) !important;
+    border: none !important;
+}
+
+.description{
+    font-size: 1.1rem;
+}
+
+.headerTitle{
+    font-size: 3rem;
+}
+
