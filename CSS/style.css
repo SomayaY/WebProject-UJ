@@ -3,9 +3,14 @@
 * {
     font-family: "Acme";
 }
-body{
+/* body{
+    background-color: #f7fafe !important;
+} */
+
+main{
     background-color: #f7fafe !important;
 }
+
 .Pizza{
     font-size: 1.6rem;
     /* vertical-align: middle; */
@@ -21,6 +26,7 @@ body{
     background-size: cover;
     height: 500px;
     background-position: 50% 50%;
+    color: white;
 }
 
 .sec-heder{
