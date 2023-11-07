@@ -54,7 +54,6 @@ main{
     font-size: 3rem;
 }
 
-
 /* Nora  */
 .cc-nora {
     
@@ -94,4 +93,68 @@ main{
     height: 30px;
 }
 
+
+/*Lana*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*
+h2 {
+    color: #ff6347;
+    text-align: center;
+}*/
+
+/* Menu item styling */
+.menu-item {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item h4 {
+    color: #ff6347;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Color scheme */
+/*
+h2, .menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #ff6347;
+    background-color: #fff;
+    padding: 10px;
+}
+*/
+.menu-item {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
 
