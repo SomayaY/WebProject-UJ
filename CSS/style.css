@@ -61,7 +61,6 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    
 }
 
 .c-nora {
@@ -95,5 +94,6 @@ main{
     width: 30px;
     height: 30px;
 }
+
 
 
