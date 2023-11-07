@@ -143,12 +143,12 @@ h2 {
 
 /* Color scheme */
 /*
-h2, .menu-item {
+h3, .menu-item {
     background-color: #fff;
     border: 1px solid #ddd;
 }
 
-h2 {
+h3 {
     color: #ff6347;
     background-color: #fff;
     padding: 10px;
