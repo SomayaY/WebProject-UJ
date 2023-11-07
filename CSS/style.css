@@ -1,11 +1,16 @@
 @import url(//fonts.googleapis.com/css?family=Acme);
 
+/* somaya */
 * {
     font-family: "Acme";
 }
 /* body{
     background-color: #f7fafe !important;
 } */
+
+.navbar{
+ background-color: white !important;
+}
 
 main{
     background-color: #f7fafe !important;
@@ -48,14 +53,17 @@ main{
 .headerTitle{
     font-size: 3rem;
 }
-.card-container {
+
+
+/* Nora  */
+.cc-nora {
     
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
 }
 
-.card {
+.c-nora {
     flex: 1;
     margin: 10px;
     max-width: 300px;
@@ -64,13 +72,13 @@ main{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.card img {
+.c-nora img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.card-content {
+.c-content-nora {
     padding: 7px;
 }
 
