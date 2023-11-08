@@ -1,42 +1,101 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
-     crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>Contact us</title>
+
+<meta charset= "utf-8">
+
+ <title> Sign Up </title>
+
+<link rel="stylesheet"  type= "text/css" href= "Css2.css">
+
+
 </head>
 
-
-
 <body>
-    <!-- nav section -->
-    <nav class="navbar navbar-light navbar-expand-sm">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="../Media/logo.png" alt="" width="70" height="70" class="d-inline-block">
-                <span class="d-inline-block align-middle  Pizza">PLANET PIZZA</span>
-            </a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <div class="navbar-nav ms-auto gap-5 mt-lg-0">
-                <a class="nav-item" href="pizza.html">Menu</a>
-                <a class="nav-item" href="contact-us.html">Contact Us</a>
-                <a class="nav-item" href="about-us.html" >About Us</a>
-                </div>
-            </div>
-        </div>
-    </nav>
 
-    <script src="../JS/bootstrap.min.js"></script>
+
+    <form method="post" action="/x" id="myForm" autocomplete="on"> 
+
+=
+<div >
+
+<h1 >Planet Pizza </h1>
+<br>
+
+<p><label>First Name
+<input type="text" name="name" id="fname"  placeholder="your name" size="29" maxlength="20" required  >
+</label>
+
+<br>
+
+<p><label>last Name
+<input type="text" name="lname" id="lname" placeholder="last name " size="29" maxlength="20" required  >
+</label>
+
+
+<br>
+
+</p>
+<p><label>phone number
+<input type="tel"  name="phone" id="ph"  placeholder="(05)5555-5555"  size="25" minlength="10" maxlength="10" required  >
+</label>
+</p>
+
+<p><label>E-mail address
+<input type="email" name="email" id="email" size="24"  placeholder="name@domain.com" required  >
+</label>
+</p>
+
+<p><strong> Gender</strong> 
+<label> <br>Female 
+<input type="radio" id="Gender" name="g" value="Female">  
+</label>
+
+<label> <br>Male 
+<input type="radio" id="Gender" name="g" value="Male">  
+</label>
+</p>
+
+<p>
+<label><strong>Date of birth</strong>
+<input type="date"name="birth" id="date" >  
+</label>
+ </p>
+
+<p>
+<label><strong>Language </strong>
+<select name ="language" id="lang" >  
+<option>Arabic</option>
+<option>English</option>
+<option>French</option>
+</select>
+</label>
+ </p>
+
+<p>
+<label><strong>Message</strong> <br>
+<textarea name="comments" id="tedxt" rows="4" cols="30" placeholder="Pleas Enter your message here" >
+</textarea >
+</label>
+ </p>
+
+</div>
+
+<p class="z">
+
+<a href="table.html">
+<input  id="submit" type="submit"  class="x" value="Submit" >
+</a>
+
+<input id="Cancel" class="y" type="reset" value="Cancel">
+  
+</p>
+
+
+</form>
 </body>
 
 </html>
+
