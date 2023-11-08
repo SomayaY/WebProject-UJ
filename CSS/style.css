@@ -54,7 +54,18 @@ main{
     font-size: 3rem;
 }
 
-/* Nora  */
+/* Noura  */
+
+table {
+    width: 100%; 
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
 .cc-nora {
 
     display: flex;
